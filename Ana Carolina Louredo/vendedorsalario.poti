@@ -1,0 +1,15 @@
+escreva "Informe o seu nome"
+var nome := leia_texto
+
+escreva "Informe o seu salário fixo"
+var salario_fixo := leia_real
+
+escreva "Informe a quantidade de vendas efetuadas no mês"
+var vendas_efetuadas := leia_real
+
+var salario_liquido := (vendas_efetuadas / 100) * 15
+
+var salario_final := salario_fixo + salario_liquido
+
+escreva "seu salário total é {salario_final.arredonde(2)}
+
